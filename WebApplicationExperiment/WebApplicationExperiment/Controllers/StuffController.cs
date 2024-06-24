@@ -2,14 +2,14 @@
 
 namespace WebApplicationExperiment.Controllers
 {
-    public class HomeController : Controller
+    public class StuffController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Links()
+        public IActionResult Nav()
         {
             return View();
         }
