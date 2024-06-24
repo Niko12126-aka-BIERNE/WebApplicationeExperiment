@@ -13,5 +13,10 @@ namespace WebApplicationExperiment.Controllers
         {
             return View();
         }
+
+        public IActionResult Test()
+        {
+            return View();
+        }
     }
 }
